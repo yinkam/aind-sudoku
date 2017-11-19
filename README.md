@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: We use contraint propagation by looking for naked twins in each unit and reducing the grid by eliminating thes values from the unit peers recursively
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: We use constraint propagation by adding the new contraint i.e the 2 main diagonals, to the units list. This would make our agent recognise these diagnals and try to solve the sudoku as needed.
 
 ### Install
 
